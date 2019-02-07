@@ -1,10 +1,11 @@
 # Offline etymological dictionary
 
-## Intorduction
+## Introduction
 
 Simple Python application for demonstration of typical processing of RDF data:
 
 * data import
+* Using of standard (RDFS) and custom vocabularies
 * RDF graph building
 * storing data into Berkeley DB (Sleepycat)
 * RDF graph querying (SPARQL)
