@@ -35,7 +35,7 @@ muscular — English
     [etymwn-20130208.zip](https://cs.rutgers.edu/~gd343/downloads/etymwn-20130208.zip) (26.2 Mb)
 
 1. Extract zip-file into the project folder (`etymological-dictionary/etymwn.tsv`).
-1. Run `python ./import.py` to import data into the internal database. It will take about 1 hour.
+1. Run `python ./import.py` to import data into the internal database. It will take about 1 hour of time and 3.8 Gb of space.
 
 ## Usage
 
