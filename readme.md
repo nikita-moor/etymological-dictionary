@@ -13,18 +13,19 @@ Simple Python application for demonstration of typical processing of RDF data:
 Was created for demonstration of proof concept, but can be used for real inquiry of words' etymology:
 
 ```sh
-> python ./dictionary.py --lang=eng muscular
+> python ./dictionary.py --lang=eng scholar
 ```
 
 Result:
 
 ```
-muscular — English
- < muscle — English
-  < muscle — French
-   < muscler — French
-    < musculus — Latin
-     < mus — Latin
+scholar — English
+ < scoler — Middle English (1100-1500)
+  < scolere — Old English (ca. 450-1100)
+   < scholaris — Latin
+    < schola — Latin
+     < σχολή — Ancient Greek (to 1453)
+      < σχολεῖον — Ancient Greek (to 1453)
 ```
 
 ## Pre-requisites
