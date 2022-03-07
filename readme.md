@@ -1,5 +1,7 @@
 # Offline etymological dictionary
 
+It is not a real application, but a **DEMO** I prepared for one (unaccomplished) employment.
+
 ## Introduction
 
 Simple Python application for demonstration of typical processing of RDF data:
@@ -31,9 +33,9 @@ scholar — English
 ## Pre-requisites
 
 1. Install Python 3 libraries: `rdflib`, `bsddb`.
-1. Download ["Etymological Wordnet 2013-02-08"](http://icsi.berkeley.edu/~demelo/etymwn/) dataset extracted by Gerard de Melo from English Wiktionary (License: CC-BY-SA 3.0). Direct download link:
+1. Download ["Etymological Wordnet 2013-02-08"](http://etym.org/) dataset extracted by Gerard de Melo from English Wiktionary (License: CC-BY-SA 3.0). Direct download link:
 
-    [etymwn-20130208.zip](https://cs.rutgers.edu/~gd343/downloads/etymwn-20130208.zip) (26.2 Mb)
+    [etymwn-20130208.zip](http://etym.org/etymwn-20130208.zip) (26.2 Mb)
 
 1. Extract zip-file into the project folder (`etymological-dictionary/etymwn.tsv`).
 1. Run `python ./import.py` to import data into the internal database. It will take about 1 hour of time and 3.8 Gb of space.
